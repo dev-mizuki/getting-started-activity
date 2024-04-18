@@ -8,10 +8,10 @@ interface UnityCompoonentProps {
 const UnityComponent = (props: UnityCompoonentProps) => {
   // UnityContextを準備、表示するUniyアプリを指定
   const { unityProvider, sendMessage, isLoaded } = useUnityContext({
-    loaderUrl: "Build/DiscordApp.loader.js",
-    dataUrl: "Build/DiscordApp.data",
-    frameworkUrl: "Build/DiscordApp.framework.js",
-    codeUrl: "Build/DiscordApp.wasm",
+    loaderUrl: "Build/GRK_test.loader.js",
+    dataUrl: "Build/GRK_test.data",
+    frameworkUrl: "Build/GRK_test.framework.js",
+    codeUrl: "Build/GRK_test.wasm",
   });
 
   // useEffectの対象にisLoadedを含めない場合
